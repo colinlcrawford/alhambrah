@@ -5,8 +5,8 @@
   "author": "Colin Crawford",
   "license": "MIT",
   "devDependencies": {
+    "@types/node": "^13.7.2",
     "@types/jest": "^25.1.2",
-    "@types/node": "^10.0.3",
     "gts": "^1.1.2",
     "jest": "^24.9.0",
     "lerna": "^3.19.0",
