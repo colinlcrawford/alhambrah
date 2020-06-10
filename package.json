@@ -6,7 +6,7 @@
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^14.0.1",
-    "@types/jest": "^25.1.2",
+    "@types/jest": "^26.0.0",
     "gts": "^2.0.0",
     "jest": "^25.1.0",
     "lerna": "^3.19.0",
