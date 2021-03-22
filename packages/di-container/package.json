@@ -1,0 +1,33 @@
+{
+  "name": "@alhambrah/di-container",
+  "version": "0.1.0",
+  "description": "Dependency inversion container",
+  "author": "Colin Crawford <ccolin84@gmail.com>",
+  "homepage": "https://github.com/colinlcrawford/alhambrah#readme",
+  "license": "MIT",
+  "main": "build/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/colinlcrawford/alhambrah.git"
+  },
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "check": "gts check",
+    "clean": "gts clean",
+    "compile": "tsc -p .",
+    "fix": "gts fix",
+    "prepare": "npm run compile",
+    "pretest": "npm run compile",
+    "posttest": "npm run check"
+  },
+  "bugs": {
+    "url": "https://github.com/colinlcrawford/alhambrah/issues"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "@alhambrah/message-bus",
+  "version": "0.1.0",
+  "description": "",
+  "keywords": [],
+  "author": "Colin Crawford <ccolin84@gmail.com>",
+  "license": "MIT",
+  "main": "build/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/colinlcrawford/alhambrah.git"
+  },
+  "scripts": {
+    "test": "jest",
+    "check": "gts check",
+    "clean": "gts clean",
+    "compile": "tsc -p .",
+    "fix": "gts fix",
+    "prepare": "npm run compile",
+    "pretest": "npm run compile",
+    "posttest": "npm run check"
+  },
+  "bugs": {
+    "url": "https://github.com/colinlcrawford/alhambrah/issues"
+  },
+  "homepage": "https://github.com/colinlcrawford/alhambrah#readme",
+  "devDependencies": {
+  }
+}
