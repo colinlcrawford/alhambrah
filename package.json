@@ -5,7 +5,7 @@
   "author": "Colin Crawford",
   "license": "MIT",
   "devDependencies": {
-    "@types/node": "^15.0.0",
+    "@types/node": "^15.0.1",
     "@types/jest": "^26.0.0",
     "gts": "^3.0.0",
     "jest": "^26.1.0",
